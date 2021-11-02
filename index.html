@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint2 - Bootstrap&SASS</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+       <div class="container">
+          <a class="navbar-brand" href="#"><img src="imagenes/logo-bookmark.svg" alt="" class="ms-4 ms-sm-0"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+         <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 150px;">
+           <li class="nav-item">
+            <a class="btn btn-link" aria-current="page" href="#">FEATURES</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-link" href="#">PRICING</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-link">CONTACT</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <button class="btn btn-outline-danger ms-2" type="submit">Login</button>
+        </form>
+      </div>
+    </div>
+    </nav>
+  </header>
+    <article class="container">
+            <div class="row cuadro">
+                <div class="col col-sm-12 col-md-6 mt-sm-5 text-center">
+                    <h1 class="mt-5">A simple Bookmark Manager</h1>
+                    <p class="text-muted mt-3 me-sm-0 ms-sm-0 me-4 ms-4 mb-4">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+                    <button type="button" class="miBotonBookmark">Get it on Chrome</button>
+                    <button type="button" class="miBotonBookmarkBlack">Get it on Firefox</button>
+                    </div>
+                <div class="row col-12 col-md-6 order-first order-md-5 mt-sm-5 mt-4 cuadro justify-content-end">
+                    <img src="imagenes/illustration-hero.png" alt="">
+                </div>
+            </div>
+           </article>
+    <article>
+        <div class="container mt-5">
+            <div class="row justify-content-center text-center">
+                <div class="col-8 col-md-6 fs-1"><h1>Features</h1></div>
+            </div>
+            <div class="row justify-content-center text-center">
+                <p class="col-8 col-md-6 col-lg-6 text-muted me-5 ms-5">Our aim is to make it and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>                
+            </div>
+            <div class="nav nav-tabs" id="myPillsNew">
+            <div class="row col-12 justify-content-center mt-3 text-center">
+                <div class="col-8 col-md-4"><a class="nav-link" href="#">Simple Bookmarking</a><hr class="mt-0 mb-1"></div>
+                <div class="col-8 col-md-4"><a class="nav-link" href="#">Speedy Searching</a><hr class="mt-0 mb-1"></div>
+                <div class="col-8 col-md-4"><a class="nav-link" href="#">Easy Sharing</a><hr class="mb-0 mt-0"></div>
+            </div>
+            <div class="row mt-5">
+                <div class="row col-12 col-md-6 mt-sm-5 mt-4 cuadro justify-content-start"><img src="imagenes/illustration-features-tab-1.png" class=""></div>
+                <div class="col-12 col-md-6 align-self-center text-center">
+                <div class="fs-1 fs-5 fw-bold mt-4"><h1>Bookmark in one click</h1></div>
+                <p class="text-muted me-5 ms-5 me-md-0 ms-md-0">Our aim is to make it and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+            <button type="button" class="btn btn-primary shadow mb-5">More info</button></div>
+            </div>
+            </div>
+        </div>
+    </article>
+    <article>
+        <div class="container mt-5 mb-3">
+            <div class="row justify-content-center text-center">
+                <div class="col-8"><h1>Download the extension</h1></div>
+            </div>
+            <div class="row justify-content-center text-center">
+                <p class="col-8 col-md-8 text-muted me-5 ms-5">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>                
+            </div>
+        </div>
+    </article>
+    <article>       
+    <div class="container mt-2 mb-3">
+             <div class="row justify-content-center mt-5 text-center">
+                 <div class="card navegador shadow border-0 col-12 col-md-3 ms-3 me-3 mb-3 mb-md-5" style="width: 18rem;">
+  <img src="imagenes/logo-chrome.png" class="card-img-top mt-5" alt="...">
+  <div class="card-body">
+    <h5 class="card-title mt-3">Add to Chrome</h5>
+    <p class="card-text text-muted">Minimun version 62</p>
+    <img src="/imagenes/bg-dots.png" alt="" class="img-fluid mb-4">
+    <a href="#" class="miBotonBrowser mt-3 mb-2 mb-md-1 col-12">Add - Install Extension</a>
+  </div>
+             </div>
+                 <div class="card navegador shadow border-0 col-12 col-md-3 ms-3 me-3 mb-3 mt-md-3 mb-md-4" style="width: 18rem;">
+  <img src="imagenes/logo-firefox.png" class="card-img-top mt-5" alt="...">
+  <div class="card-body">
+    <h5 class="card-title mt-4">Add to Firefox</h5>
+    <p class="card-text text-muted">Minimun version 55</p>
+    <img src="imagenes/bg-dots.png" alt="" class="img-fluid mb-4">
+    <a href="#" class="miBotonBrowser mt-3 col-12">Add - Install Extension</a>
+  </div>
+  </div>
+    <div class="card navegador shadow border-0 col-12 col-md-3 ms-3 me-3 mb-3 mt-md-5 mb-md-2" style="width: 18rem;">
+    <img src="imagenes/logo-opera.png" class="card-img-top mt-5" alt="...">
+    <div class="card-body mb-md-4">
+    <h5 class="card-title mt-3">Add to Opera</h5>
+    <p class="card-text text-muted">Minimun version 46</p>
+    <img src="imagenes/bg-dots.png" alt="" class="img-fluid mb-4">
+    <a href="#" class="miBotonBrowser mt-3 mb-2 col-12">Add - Install Extension</a>
+    </div>
+    </div>
+        </div>
+  </article>
+  <article>
+    <div class="container mt-5 mb-3">
+      <div class="row justify-content-center text-center">
+      <div class="col-8 fs-3 fw-bold">Frequently Asked Questions</div>
+      </div>
+      <div class="row justify-content-center text-center">
+        <p class="col-8 col-lg-6 text-muted me-5 ms-5 mt-3">Here are some of our FAQs. If you have any other questions you's like answered please fell free to email us.</p>
+      </div>
+      </div>
+  </article>
+  <article>
+    <div class="container">
+    <div class="accordion accordion-flush justify-content-center" id="accordionFlushExample">
+    <div class="accordion-item col-10 col-md-6 offset-md-3 offset-1">
+      <h2 class="accordion-header" id="flush-headingOne">
+        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne" id="personalAccordeon">
+        What is a Bookmark?
+        </button>
+      </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit error atque molestias officia labore, deleniti nostrum dolor distinctio fugiat itaque eius impedit placeat. Saepe aut aliquid amet culpa perspiciatis sit explicabo vero repudiandae voluptate quia!</div>
+    </div>
+    </div>
+    <div class="accordion-item col-10 col-md-6 offset-md-3 offset-1">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo" id="personalAccordeon">
+        How can I request a new browser?
+        </button>
+      </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat excepturi unde optio exercitationem nesciunt? Quidem ratione, nulla amet minus voluptate omnis sequi excepturi fugiat ipsam?</div>
+    </div>
+    </div>
+    <div class="accordion-item col-10 col-md-6 offset-md-3 offset-1">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree" id="personalAccordeon">
+        Is there a mobile app?
+        </button>
+      </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ex fugit, nobis dolor, in autem enim laboriosam harum architecto voluptas cum! Architecto doloribus officiis magni, assumenda enim voluptates odio vero quibusdam quos animi quas quia nam voluptatibus illum debitis repellendus?</div>
+    </div>
+  </div>
+  <div class="accordion-item col-10 col-md-6 offset-md-3 offset-1">
+    <h2 class="accordion-header" id="flush-headingFour">
+      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour" id="personalAccordeon">
+        What about other Chromium browsers?
+      </button>
+    </h2>
+    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum ex fugit, nobis dolor, in autem enim laboriosam harum architecto voluptas cum! Architecto doloribus officiis magni, assumenda enim voluptates odio vero quibusdam quos animi quas quia nam voluptatibus illum debitis repellendus?</div>
+    </div>
+  </div>
+  </div>
+  <div class="col-12 align-self-center text-center mt-5 mb-5"><button type="button" class="btn btn-primary shadow">More info</button></div>
+  </div>
+</article>
+<footer>
+  <div class="container-fluid bg-primary align-items-center text-center">
+      <p class="font-monospace text-white"><br><br>35,000+ ALREADY JOINED</p>
+      <h2 class="justify-content-center text-white col-auto">Stay up-to-date with what<br>we're doing</h2>
+    <form action="" class="needs-walidation">
+    <div class="row mb-3 mt-3 justify-content-center">
+    <div class="mb-3 col-4">
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email address">
+    <div class="valid-feedback">Valid.</div>
+    </div>
+    <button type="submit" class="miBoton col-3 col-md-2 mb-3">Contact Us</button>
+    </div>
+    </form>
+    <div class="row row-cols-auto footerBg justify-content-center">
+    <button type="button" class="btn mt-4 mt-md-2 col-md-2 logoHeight"><img src="imagenes/logo-bookmark_mix.png" alt=""></button>
+    <div class="w-100 d-block d-md-none"></div>
+    <button type="button" class="btn col-md-1 mt-md-2" id="myLink">FEATURES</button>
+    <div class="w-100 d-block d-md-none"></div>
+    <button type="button" class="btn col-md-1 mt-3 mt-md-2" id="myLink">PRICING</button>
+    <div class="w-100 d-block d-md-none"></div>
+    <button type="button" class="btn col-md-1 mt-3 mt-md-2" id="myLink">CONTACT</button>
+    <div class="w-100 d-block d-md-none"></div>
+    <button type="button" class="btn col-md-1 offset-md-5 heightIcon"><img id="myIconColor" src="imagenes/icon-facebook.png" alt=""></button>
+    <button type="button" class="btn col-md-1 heightIcon"><img id="myIconColor" src="imagenes/icon-twitter.png" alt=""></button>
+  </div>
+  </div>
+</footer>
+</body>
+</html>
